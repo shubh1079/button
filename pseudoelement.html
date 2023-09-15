@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo element</title>
+<style>
+p::first-letter{
+    color: red;
+}
+p::first-line{
+    color: blue;
+}
+p::selection{
+    color: blueviolet;
+    background-color: yellowgreen;
+    font-size: 25px;
+}
+</style>
+</head>
+<body>
+    <!-- 1-First line
+    2 First letter
+    3 Selection
+    4 Before
+    5 After -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero animi deserunt tempora. Quod doloremque aperiam aliquam nulla ipsam omnis placeat.</p>
+</body>
+</html>
